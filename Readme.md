@@ -16,5 +16,5 @@
     - the order of engine thrust data can be get by run "KRPC{'engine_tags'}" in matlab command window when simulink sim is started, after you set the tag of your engines
 - demo:
   - aircraft:Quad.craft
-  - start flight in KSP,ignite 4 engines and run the simulation,the drone will take off.
-  - now only the inner PID loop was implemented so the drone can only keep attitude stable,can't keep a stable height and position.
+  - start flight in KSP,ignite 4 engines and run the simulation
+  - drone will take off,ascend to 250m ASL,move to the top of KSC,land and set throttle to 0%
