@@ -2,7 +2,7 @@ ship = Quad
 version = 1.5.1
 description = 
 type = VAB
-size = 9.75439167,2.71202087,9.75440216
+size = 9.75439167,3.78975105,9.75441551
 steamPublishedFileId = 0
 persistentId = 4068649364
 rot = 0,0,0,0
@@ -251,8 +251,8 @@ PART
 		isEnabled = True
 		currentRotation = (-0.707106829, 0, 0, 0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
+		storedAnimationSpeed = 10
+		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
 		{
@@ -534,7 +534,7 @@ PART
 	part = stackPoint1_4292087288
 	partName = Part
 	persistentId = 699173271
-	pos = -3.65116048,14.4216309,-0.0310809277
+	pos = -3.65116048,14.4216309,-0.0310801528
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,1.21868205,-0.364599228
 	rot = 0,-0.707106829,0,-0.707106829
@@ -610,7 +610,7 @@ PART
 	part = FSpropellerFolding_4292086312
 	partName = Part
 	persistentId = 2330602840
-	pos = -3.65116048,14.4450731,-0.0310807489
+	pos = -3.65116048,14.4450731,-0.031079974
 	attPos = 0,0,0
 	attPos0 = -8.94068606E-08,0.0234422591,3.72528697E-09
 	rot = 0.130526155,1.49011612E-07,2.98023224E-08,0.991444945
@@ -1000,7 +1000,7 @@ PART
 	part = sensorBarometer_4292085870
 	partName = Part
 	persistentId = 89779299
-	pos = -1.5390197,14.0970707,-0.355651826
+	pos = -1.5390197,14.0970707,-0.355651438
 	attPos = 0,0,0
 	attPos0 = -0.324569494,-0.893458664,-0.0400390625
 	rot = 1.1920929E-07,1.1920929E-07,0.707106829,0.707106829
@@ -1101,7 +1101,7 @@ PART
 	part = landingLeg1_4292085704
 	partName = Part
 	persistentId = 1389993900
-	pos = -3.80747962,13.9894838,0.0483161844
+	pos = -3.80747962,13.9894838,0.048315797
 	attPos = 0,0,0
 	attPos0 = 0.0793980062,1.37500095,0.0675477982
 	rot = 0.135323644,0.694036841,0.135323524,-0.694037437
@@ -1367,10 +1367,10 @@ PART
 	part = stackPoint1_4292087250
 	partName = Part
 	persistentId = 388062684
-	pos = -0.0324780457,14.4216309,3.58760762
+	pos = -0.0324780457,14.4216309,3.58761382
 	attPos = 0,0,0
 	attPos0 = -2.8377201E-08,1.21868241,-0.364599198
-	rot = 0,-1.00000012,0,1.1920929E-07
+	rot = 0,-1,0,1.19209275E-07
 	attRot = 0,0,0,1
 	attRot0 = 7.10542736E-15,-0.707106829,0.707106829,7.10542736E-15
 	mir = 1,1,1
@@ -1443,10 +1443,10 @@ PART
 	part = FSpropellerFolding_4292086434
 	partName = Part
 	persistentId = 1307203059
-	pos = -0.0324780457,14.4450741,3.58760858
+	pos = -0.0324780457,14.4450741,3.58761477
 	attPos = 0,0,0
 	attPos0 = 8.4793934E-14,0.0234423857,-3.53902493E-07
-	rot = 4.47034836E-08,-1.49011612E-08,0.130526319,0.991445005
+	rot = 4.470348E-08,-1.49011594E-08,0.130526304,0.991444886
 	attRot = 1.16699521E-08,-7.64879715E-10,0.1305262,0.991444886
 	attRot0 = 0.1305262,0.991444886,-6.55801813E-16,8.94069601E-08
 	mir = 1,1,1
@@ -1715,7 +1715,7 @@ PART
 	part = FuelCellArray_4292163908
 	partName = Part
 	persistentId = 3779088602
-	pos = -0.032479357,14.4322739,1.37053752
+	pos = -0.032479357,14.4322739,1.37053442
 	attPos = -8.89768103E-07,0.35063082,-5.96046448E-08
 	attPos0 = -4.03545357E-08,-1.34900844,-0.375242025
 	rot = 0.50000006,-0.49999994,-0.49999994,0.500000179
@@ -1833,7 +1833,7 @@ PART
 	part = sensorAtmosphere_4292085842
 	partName = Part
 	persistentId = 1249504270
-	pos = -0.357047558,14.011651,1.60335362
+	pos = -0.357047558,14.011651,1.60335052
 	attPos = 0,0,0
 	attPos0 = -0.324569166,-0.765560627,0.0453806929
 	rot = 0.500000298,0.49999994,0.499999821,0.50000006
@@ -1913,7 +1913,7 @@ PART
 	part = landingLeg1_4292085576
 	partName = Part
 	persistentId = 1600969420
-	pos = 0.0469199903,13.9894838,3.74392533
+	pos = 0.0469199903,13.9894838,3.74393153
 	attPos = 0,0,0
 	attPos0 = 0.0793980062,1.37500119,0.0675476491
 	rot = 0.191376433,-2.08616257E-07,-2.98023224E-08,-0.981516719
@@ -2180,7 +2180,7 @@ PART
 	part = stackPoint1_4292087212
 	partName = Part
 	persistentId = 3180735285
-	pos = 3.58620429,14.4216309,-0.0310837291
+	pos = 3.58620429,14.4216309,-0.031084504
 	attPos = 0,0,0
 	attPos0 = 2.98023224E-08,1.21868205,-0.364599228
 	rot = 0,-0.707106829,0,0.707106829
@@ -2256,10 +2256,10 @@ PART
 	part = FSpropellerFolding_4292086556
 	partName = Part
 	persistentId = 998288881
-	pos = 3.58620429,14.4450731,-0.0310838483
+	pos = 3.58620429,14.4450731,-0.0310846232
 	attPos = 0,0,0
 	attPos0 = -5.96045702E-08,0.0234422591,3.72528697E-09
-	rot = 0.130526125,1.78813934E-07,2.98023224E-07,-0.991445005
+	rot = 0.130526364,2.38418579E-07,5.96046448E-07,-0.991444886
 	attRot = 0.130526111,4.28679989E-08,1.00708979E-08,-0.991444945
 	attRot0 = 0.0922959074,-0.701057315,-0.0922958776,-0.701057494
 	mir = 1,1,1
@@ -2752,7 +2752,7 @@ PART
 	part = sensorAccelerometer_4292085768
 	partName = Part
 	persistentId = 1609048629
-	pos = 1.50493634,14.0109777,-0.355651379
+	pos = 1.50493634,14.0109777,-0.355650991
 	attPos = 0,0,0
 	attPos0 = 0.324569434,-0.862585723,0.0460538864
 	rot = 0,0,0.707106829,-0.707106829
@@ -2853,7 +2853,7 @@ PART
 	part = landingLeg1_4292085448
 	partName = Part
 	persistentId = 1811549736
-	pos = 3.74252319,13.9894838,-0.110480458
+	pos = 3.74252319,13.9894838,-0.11048007
 	attPos = 0,0,0
 	attPos0 = 0.0793979764,1.37500095,0.0675477982
 	rot = 0.135323465,-0.694037437,-0.135323822,-0.694036841
@@ -3120,10 +3120,10 @@ PART
 	part = stackPoint1_4294526690
 	partName = Part
 	persistentId = 1160515033
-	pos = -0.0324784331,14.4216309,-3.64977193
+	pos = -0.0324784331,14.4216309,-3.64977813
 	attPos = 0,0,0
 	attPos0 = -2.83772756E-08,1.21868217,-0.36459896
-	rot = 0,1.1920929E-07,0,1.00000012
+	rot = 0,1.19209275E-07,0,1
 	attRot = 0,0,0,1
 	attRot0 = 7.10542736E-15,-0.707106829,0.707106829,7.10542736E-15
 	mir = 1,1,1
@@ -3199,7 +3199,7 @@ PART
 	pos = -0.0324784629,14.4450722,-3.6497674
 	attPos = 0,0,0
 	attPos0 = -7.15253662E-14,0.0234413724,-1.15483971E-07
-	rot = 0,0,0.130526066,-0.991445065
+	rot = 0,0,0.130526051,-0.991444945
 	attRot = 1.16699415E-08,-6.68570088E-09,0.130526081,-0.991444886
 	attRot0 = -8.47032846E-22,8.19563795E-08,0.130526081,-0.991444886
 	mir = 1,1,1
@@ -3468,10 +3468,10 @@ PART
 	part = FuelCellArray_4294526530
 	partName = Part
 	persistentId = 3482700755
-	pos = -0.0324771516,14.4322739,-1.43270004
+	pos = -0.0324771516,14.4322739,-1.43269384
 	attPos = -8.77846446E-07,0.350630581,-1.1920929E-07
 	attPos0 = -4.03545002E-08,-1.3490082,-0.375242203
-	rot = -0.50000006,0.500000238,-0.500000119,0.49999994
+	rot = -0.49999994,0.500000179,-0.50000006,0.499999821
 	attRot = 0,0,0,1
 	attRot0 = 3.61563224E-09,-0.707106829,1.80781967E-09,0.707106829
 	mir = 1,1,1
@@ -3586,7 +3586,7 @@ PART
 	part = sensorThermometer_4294526406
 	partName = Part
 	persistentId = 2435605592
-	pos = -0.357049406,14.0028152,-1.57264555
+	pos = -0.357050955,14.0028152,-1.57264245
 	attPos = 0,0,0
 	attPos0 = 0.324569523,-0.858433187,0.0542162433
 	rot = -0.50000006,0.50000006,-0.50000006,0.49999994
@@ -3687,7 +3687,7 @@ PART
 	part = SurfaceScanner_4294526378
 	partName = Part
 	persistentId = 2880028135
-	pos = 0.392094791,13.8867693,-1.4473263
+	pos = 0.392098278,13.8867693,-1.4473232
 	attPos = 0,0,0
 	attPos0 = -0.4245691,-0.983752489,0.170262143
 	rot = -0.70710659,8.94069672E-08,0.707106948,-1.49011612E-08
@@ -3836,7 +3836,7 @@ PART
 	part = landingLeg1_4294526342
 	partName = Part
 	persistentId = 1248173909
-	pos = -0.111876979,13.9894838,-3.80609012
+	pos = -0.111877367,13.9894838,-3.80609632
 	attPos = 0,0,0
 	attPos0 = 0.079398036,1.37500119,0.0675478876
 	rot = -2.98023224E-08,-0.981516719,-0.191376418,2.08616257E-07
@@ -4045,10 +4045,6 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = batteryBankLarge_4294526152
-	link = seatExternalCmd_4294525232
-	link = seatExternalCmd_4294525184
-	link = seatExternalCmd_4294525136
-	link = seatExternalCmd_4294525088
 	attN = top,Size1p5.Tank.01_4292489880_0|0.234375|0
 	attN = bottom,batteryBankLarge_4294526152_0|-0.234375|0
 	EVENTS
@@ -4163,6 +4159,10 @@ PART
 	link = telescopicLadder_4294525898
 	link = telescopicLadder_4294525676
 	link = telescopicLadder_4294525454
+	link = seatExternalCmd_4294525232
+	link = seatExternalCmd_4294297518
+	link = seatExternalCmd_4294297460
+	link = seatExternalCmd_4294297402
 	attN = top,Size1p5.Tank.01_4294526214_0|0.11|0
 	EVENTS
 	{
@@ -4569,12 +4569,12 @@ PART
 	part = seatExternalCmd_4294525232
 	partName = Part
 	persistentId = 4235727188
-	pos = -0.7941733,13.4469099,-0.832879245
+	pos = -0.796569288,13.4387922,-0.84466511
 	attPos = 0,0,0
-	attPos0 = -0.761695087,-0.0237569809,-0.801796973
-	rot = 0,-0.382683456,0,-0.923879564
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.382683456,0,-0.923879564
+	attPos0 = -0.764091372,0.31249994,-0.813582838
+	rot = -0.237034753,0.666194022,-0.666194141,-0.237034813
+	attRot = 4.70240131E-08,1.3890098E-08,-0.335217744,0.942140579
+	attRot0 = -0.237034738,0.666193962,-0.666194141,-0.237034798
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -4589,10 +4589,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = seatExternalCmd_4294525184
-	sym = seatExternalCmd_4294525136
-	sym = seatExternalCmd_4294525088
-	srfN = srfAttach,Size1p5.Tank.01_4294526214
+	sym = seatExternalCmd_4294297518
+	sym = seatExternalCmd_4294297460
+	sym = seatExternalCmd_4294297402
+	srfN = srfAttach,batteryBankLarge_4294526152
 	EVENTS
 	{
 	}
@@ -4660,15 +4660,15 @@ PART
 }
 PART
 {
-	part = seatExternalCmd_4294525184
+	part = seatExternalCmd_4294297518
 	partName = Part
-	persistentId = 4235867515
-	pos = -0.834275126,13.4469099,0.730612755
+	persistentId = 361397324
+	pos = -0.846060991,13.4387922,0.733008742
 	attPos = 0,0,0
-	attPos0 = -0.801796973,-0.0237569809,0.761694968
-	rot = 0,-0.923879504,0,-0.382683456
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.923879564,0,-0.382683426
+	attPos0 = -0.813582897,0.3125,0.764091253
+	rot = -0.638679326,0.303461373,-0.303461492,-0.638679206
+	attRot = 4.70240131E-08,1.3890098E-08,-0.335217744,0.942140579
+	attRot0 = -0.707106829,-8.94069672E-08,-2.98023224E-08,-0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -4684,9 +4684,9 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = seatExternalCmd_4294525232
-	sym = seatExternalCmd_4294525136
-	sym = seatExternalCmd_4294525088
-	srfN = srfAttach,Size1p5.Tank.01_4294526214
+	sym = seatExternalCmd_4294297460
+	sym = seatExternalCmd_4294297402
+	srfN = srfAttach,batteryBankLarge_4294526152
 	EVENTS
 	{
 	}
@@ -4754,15 +4754,15 @@ PART
 }
 PART
 {
-	part = seatExternalCmd_4294525136
+	part = seatExternalCmd_4294297460
 	partName = Part
-	persistentId = 3233673693
-	pos = 0.729217112,13.4469099,0.7707147
+	persistentId = 1164638037
+	pos = 0.731613159,13.4387922,0.782500505
 	attPos = 0,0,0
-	attPos0 = 0.761695147,-0.0237569809,0.801796913
-	rot = 0,-0.923879564,0,0.382683456
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.923879564,0,0.382683486
+	attPos0 = 0.764091432,0.31249994,0.813582778
+	rot = -0.666194141,-0.237034842,0.237034783,-0.666193962
+	attRot = 4.70240131E-08,1.3890098E-08,-0.335217744,0.942140579
+	attRot0 = -0.50000006,-0.50000006,0.49999994,-0.49999994
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -4778,9 +4778,9 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = seatExternalCmd_4294525232
-	sym = seatExternalCmd_4294525184
-	sym = seatExternalCmd_4294525088
-	srfN = srfAttach,Size1p5.Tank.01_4294526214
+	sym = seatExternalCmd_4294297518
+	sym = seatExternalCmd_4294297402
+	srfN = srfAttach,batteryBankLarge_4294526152
 	EVENTS
 	{
 	}
@@ -4848,15 +4848,15 @@ PART
 }
 PART
 {
-	part = seatExternalCmd_4294525088
+	part = seatExternalCmd_4294297402
 	partName = Part
-	persistentId = 268429300
-	pos = 0.769318819,13.4469099,-0.792777359
+	persistentId = 12351479
+	pos = 0.781104624,13.4387922,-0.795173466
 	attPos = 0,0,0
-	attPos0 = 0.801796854,-0.0237569809,-0.761695087
-	rot = 0,-0.382683456,0,0.923879504
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.382683426,0,0.923879564
+	attPos0 = 0.813582718,0.31250006,-0.764091372
+	rot = -0.303461492,-0.638679266,0.638679266,-0.303461343
+	attRot = 4.70240131E-08,1.3890098E-08,-0.335217744,0.942140579
+	attRot0 = -5.96046448E-08,-0.707106829,0.707106769,6.05085546E-08
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -4872,9 +4872,9 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = seatExternalCmd_4294525232
-	sym = seatExternalCmd_4294525184
-	sym = seatExternalCmd_4294525136
-	srfN = srfAttach,Size1p5.Tank.01_4294526214
+	sym = seatExternalCmd_4294297518
+	sym = seatExternalCmd_4294297460
+	srfN = srfAttach,batteryBankLarge_4294526152
 	EVENTS
 	{
 	}

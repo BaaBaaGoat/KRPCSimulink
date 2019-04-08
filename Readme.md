@@ -17,7 +17,9 @@
     - the order of engine thrust data can be get by run "KRPC{'engine_tags'}" in matlab command window when simulink sim is started, after you set the tag of your engines
 - demo:
   - aircraft:Quad.craft
-  - start flight in KSP,turn on the fuel battery,ignite 4 engines and run the simulation
+  - start flight in KSP,turn on the fuel battery,ignite 4 engines 
+  - set Probodobodyne RoveMate as the control part if you have kerbonauts onboard.
+  -  run the simulation
   - drone will take off,ascend to 250m ASL,move to the top of KSC,land and set throttle to 0%
   - Accelerate or rapid accelerate mode of simulink is strongly recommend.
   - if your computer is too slow,the drone may go haywire.
